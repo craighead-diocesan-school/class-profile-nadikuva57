@@ -1,9 +1,16 @@
+<!DOCTYPE html>
+<head>
+  <title>Felxigrid school (class of 2023)</title>
+</head>
+
 <body>
   <header>
-    <h1>Class of 2023</h1>
+    <h1>Felxigrid school (class of 2023)</h1>
   </header>
 
-  <nav></nav>
+  <nav>
+    <a href="Person 1.html"> person 1 </a>
+  </nav>
 
   <main>
     <h2>Our school</h2>
@@ -14,10 +21,32 @@
     <p>The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
   </main>
 
-  <footer>&copy Varuni</footer>
+  <footer>&copy; Varuni</footer>
 </body>
 
 <style>
+  body {
+    display: grid;
+    grid:
+      " h    h    h  " 3em
+      " n    m    m  " auto
+      " f    f    f  " 5em
+      / 1fr 5fr 1fr;
+  }
+
+  header {
+    grid-area: h;
+  }
+  nav {
+    grid-area: n;
+  }
+  main {
+    grid-area: m;
+  }
+  footer {
+    grid-area: f;
+  }
+
   h1 {
   }
 
