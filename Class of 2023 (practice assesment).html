@@ -1,92 +1,98 @@
 <!DOCTYPE html>
-<head>
-  <title>Felxigrid school (class of 2023)</title>
-</head>
+<html>
+  <head>
+    <title>Felxigrid school (class of 2023)</title>
+  </head>
 
-<body>
-  <header>
-    <h1>Felxigrid school (class of 2023)</h1>
-  </header>
+  <body>
+    <header>
+      <h1>Felxigrid school (class of 2023)</h1>
+    </header>
 
-  <nav>
-    <a href="Person 1.html"> person 1 </a>
-  </nav>
+    <nav>
+      <a href="Person 1.html"> person 1 </a>
+    </nav>
 
-  <main>
-    <h2>Our school</h2>
-    <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
-    <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
+    <main>
+      <h2>Our school</h2>
+      <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
+      <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
 
-    <h3>Our class</h3>
-    <p>Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy.</p>
-    <p>The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
-  </main>
+      <h3>Our class</h3>
+      <p>Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy.</p>
+      <p>The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
 
-  <footer>&copy; Varuni</footer>
-</body>
+      <img src="https://drive.google.com/file/d/1BiV0CS6vSREWxAh4gz7wjpBBda912xcb/preview" />
+    </main>
 
-<style>
-  body {
-    display: grid;
-    grid:
-      " h    h    h  " 3em
-      " n    m    m  " auto
-      " f    f    f  " 5em
-      / 1fr 5fr 1fr;
-  }
+    <
 
-  header {
-    grid-area: h;
-  }
-  nav {
-    grid-area: n;
-  }
-  main {
-    grid-area: m;
-  }
-  footer {
-    grid-area: f;
-  }
+    <footer>&copy; Varuni</footer>
+  </body>
 
-  h1 {
-    colour: #1c5214;
-  }
+  <style>
+    body {
+      display: grid;
+      grid:
+        " h    h    h  " auto
+        " n    m    m  " auto
+        " f    f    f  " auto
+        / 1fr 5fr 1fr;
+      grid-gap: 0.5em;
+    }
 
-  nav {
-    text-decoration: none;
-    color: #f55a00;
-    border: 1px solid black;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    margin-top: 1.5em;
-  }
+    header {
+      grid-area: h;
+    }
+    nav {
+      grid-area: n;
+    }
+    main {
+      grid-area: m;
+    }
+    footer {
+      grid-area: f;
+    }
 
-  main {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    margin-top: 1.5em;
-  }
+    h1 {
+      color: #1c5214;
+      text-align: left;
+    }
 
-  h2 {
-    colour: #05578a;
-  }
+    a {
+      text-decoration: none;
+      color: #f55a00;
+      border: 1px solid black;
+      text-align: center;
+    }
 
-  h3 {
-    colour: #05578a;
-  }
+    a:hover {
+      color: white;
+      background-color: #f55a00;
+      border: 1px solid black;
+    }
 
-  p {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-  }
+    h2 {
+      color: #05578a;
+      text-align: left;
+    }
 
-  footer {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-  }
-</style>
+    h3 {
+      color: #05578a;
+      text-align: left;
+    }
+
+    main {
+    }
+
+    p {
+    }
+
+    /* body {
+      background: url(school-inside.jpg);
+    } */
+
+    footer {
+    }
+  </style>
+</html>
