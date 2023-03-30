@@ -2,11 +2,15 @@
 <html>
   <head>
     <title>Felxigrid school (class of 2023)</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&display=swap" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <h1>Felxigrid school (class of 2023)</h1>
+      <h1>Flexigrid school (class of 2023)</h1>
     </header>
 
     <nav>
@@ -18,9 +22,11 @@
       <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
       <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
 
-      <h3>Our class</h3>
+      <h2>Our class</h2>
       <p>Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy.</p>
       <p>The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
+
+      <img src="school-inside.jpg" icon />
     </main>
 
     <footer>&copy; Varuni</footer>
@@ -56,17 +62,21 @@
       text-align: left;
       border: 2px solid black;
       text-align: center;
-      padding: 0.2em;
+      padding: 0.4em;
+      font-size: xx-large;
     }
 
     a {
       text-decoration: none;
       background: #f55a00;
       color: white;
-      border: 1px solid black;
+      border: 1px solid #f55a00;
       text-align: center;
-      border: 1.5px solid black;
       padding: 0.2em;
+      padding-left: 3em;
+      padding-right: 3em;
+      font-weight: bold;
+      font-size: large;
     }
 
     a:hover {
@@ -75,27 +85,43 @@
       border: 1px solid black;
     }
 
+    a:hover {
+      color: #ffffff;
+      background-color: #f55a0085;
+      border: 1px solid #f55a0085;
+    }
+
+    p {
+      background: #e05f15cb;
+      padding: 0.5em;
+      color: white;
+      border-radius: 0.2em;
+    }
+
     body {
-      background: url("school-inside.jpg");
+      background: url("school-outside (2).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: brightness();
     }
 
     h2 {
       color: #ffffff;
       background: #05578a;
       text-align: left;
+      padding-left: 0.4em;
+      border-radius: 0.1em;
+      font-size: xx-large;
     }
 
-    h3 {
-      color: #ffffff;
-      background: #05578a;
-      text-align: left;
-    }
-
-    main {
+    body {
       color: white;
+      margin: 2em;
     }
 
-    p {
+    img {
+      height: 10em;
+      border: 5px solid white;
     }
 
     footer {
