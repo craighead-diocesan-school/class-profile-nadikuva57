@@ -5,7 +5,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&family=Style+Script&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&family=Style+Script&display=swap" rel="stylesheet" />
   </head>
 
   <body>
@@ -36,8 +40,8 @@
     body {
       display: grid;
       grid:
-        " h    h    h  " auto
-        " n    m    m  " auto
+        " h    h    n  " auto
+        " m    m    m  " auto
         " f    f    f  " auto
         / 1fr 5fr 1fr;
       grid-gap: 0.5em;
@@ -56,53 +60,23 @@
       grid-area: f;
     }
 
-    h1 {
-      background: #1c5214;
-      color: #ffffff;
-      text-align: left;
-      border: 2px solid black;
-      text-align: center;
-      padding: 0.4em;
-      font-size: xx-large;
-    }
-
-    a {
-      text-decoration: none;
-      background: #f55a00;
-      color: white;
-      border: 1px solid #f55a00;
-      text-align: center;
-      padding: 0.2em;
-      padding-left: 3em;
-      padding-right: 3em;
-      font-weight: bold;
-      font-size: large;
-    }
-
-    a:hover {
-      color: white;
-      background-color: #f55a00;
-      border: 1px solid black;
-    }
-
-    a:hover {
-      color: #ffffff;
-      background-color: #f55a0085;
-      border: 1px solid #f55a0085;
-    }
-
-    p {
-      background: #e05f15cb;
-      padding: 0.5em;
-      color: white;
-      border-radius: 0.2em;
-    }
-
     body {
       background: url("school-outside (2).jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      filter: brightness();
+      margin: 2em;
+    }
+
+    h1 {
+      background: #1c5214;
+      color: #ffffff;
+      text-align: left;
+      padding-right: 5em;
+      border: 2px solid black;
+      text-align: center;
+      padding: 0.4em;
+      font-size: xxx-large;
+      font-family: "Style Script", cursive;
     }
 
     h2 {
@@ -111,12 +85,34 @@
       text-align: left;
       padding-left: 0.4em;
       border-radius: 0.1em;
-      font-size: xx-large;
+      font-size: x-large;
+      font-family: "NTR", sans-serif;
     }
 
-    body {
+    p {
+      background: #e05f15cb;
       color: white;
-      margin: 2em;
+      border-radius: 0.2em;
+    }
+
+    a {
+      text-decoration: none;
+      background: #f55a00;
+      color: white;
+      border: 1px solid #f55a00;
+      text-align: center;
+      margin-left: 1em;
+      margin-top: 3em;
+      padding: 0.5em;
+      padding-left: 3em;
+      padding-right: 3em;
+      font-size: large;
+    }
+
+    a:hover {
+      color: #ffffff;
+      background-color: #f55a0085;
+      border: 1px solid #f55a0085;
     }
 
     img {
@@ -125,7 +121,7 @@
     }
 
     footer {
-      color: white;
+      color: #f55a00;
     }
   </style>
 </html>
