@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta cherset. "UTF.8">
+
+    <title>Felxigrid school (class of 2023)</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&family=Style+Script&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=NTR&family=Style+Script&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Flexigrid school (class of 2023)</h1>
+    </header>
+
+    <nav>
+      <a href="index.html"> Home </a>
+      <a href="Class.html">Class Profile</a>
+      <a href="Merit.html">Merit students</a>
+      <a href="Excellence.html">Excellence students</a>
+    </nav>
+
+    <main>
+      <h2>Our school</h2>
+      <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
+      <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
+
+      <img src="school-inside.jpg" inside of the school />
+    </main>
+
+    <footer>&copy;Varuni</footer>
+  </body>
+
+  <style>
+    body {
+      display: grid;
+      grid:
+        " h    h    n  " auto
+        " m    m    n  " auto
+        " f    f    n  " auto
+        / 1fr 5fr 1fr;
+      grid-gap: 0.5em;
+    }
+
+    header {
+      grid-area: h;
+    }
+    nav {
+      grid-area: n;
+    }
+    main {
+      grid-area: m;
+    }
+    footer {
+      grid-area: f;
+    }
+
+    body {
+      background: url("school-outside (2).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 2em;
+    }
+
+    h1 {
+      background: #1c5214;
+      color: #ffffff;
+      text-align: left;
+      padding-right: 5em;
+      border: 2px solid black;
+      text-align: center;
+      padding: 0.4em;
+      font-size: xxx-large;
+      font-family: "Style Script", cursive;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #ffffff;
+      background: #05578a;
+      text-align: left;
+      padding-left: 0.4em;
+      border-radius: 0.1em;
+      font-size: x-large;
+      font-family: "NTR", sans-serif;
+    }
+
+    p {
+      background: #e05f15cb;
+      color: white;
+      border-radius: 0.2em;
+      padding: 0.5em;
+      font-family: "NTR", sans-serif;
+      font-size: larger;
+    }
+
+    a {
+      text-decoration: none;
+      background: #f55a00;
+      color: white;
+      border: 1px solid #f55a00;
+      text-align: center;
+      margin: 0.5em;
+      padding: 0.5em;
+      padding-left: 3em;
+      padding-right: 3em;
+      font-size: large;
+      display: block;
+      margin-top: 0;
+    }
+
+    a:hover {
+      color: #ffffff;
+      background-color: #f55a0085;
+      border: 1px solid #f55a0085;
+    }
+
+    img {
+      height: 10em;
+      border: 3px solid #f55a00ad;
+    }
+
+    footer {
+      color: #f55a00;
+    }
+  </style>
+</html>
