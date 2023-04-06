@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta cherset. "UTF.8">
-
     <title>Felxigrid school (class of 2023)</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,19 +17,33 @@
       <h1>Flexigrid school (class of 2023)</h1>
     </header>
 
+    <script src="https://kit.fontawesome.com/4110c4dc56.js" crossorigin="anonymous"></script>
+
     <nav>
-      <a href="index.html"> Home </a>
-      <a href="Class.html">Class Profile</a>
-      <a href="Merit.html">Merit students</a>
-      <a href="Excellence.html">Excellence students</a>
+      <a href="index.html">
+        <i class="fa-solid fa-house-chimney"></i>
+        Home
+      </a>
+
+      <a href="Class.html"> Class Profile </a>
+
+      <a href="Merit.html"> Merit </a>
+
+      <a href="Excellence.html"> Excellence </a>
     </nav>
 
     <main>
       <h2>Our school</h2>
-      <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
-      <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
 
-      <img src="school-inside.jpg" alt="Inside of the school" />
+      <div class="container">
+        <div class="image">
+          <img src="school-inside.jpg" alt="Inside of the school" />
+        </div>
+        <div class="text">
+          <p>Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be.</p>
+          <p>Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
+        </div>
+      </div>
     </main>
 
     <footer>&copy;Varuni</footer>
@@ -62,7 +74,7 @@
     }
 
     body {
-      background: url("school-outside (2).jpg");
+      background: url("Outside school white.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       margin: 2em;
@@ -95,9 +107,12 @@
       background: #e05f15cb;
       color: white;
       border-radius: 0.2em;
-      padding: 0.5em;
+      padding: 0.3em;
       font-family: "NTR", sans-serif;
       font-size: larger;
+      margin-top: 0;
+      margin-left: 1.5em;
+      width: 43em;
     }
 
     a {
@@ -122,8 +137,17 @@
     }
 
     img {
-      height: 10em;
+      height: 15em;
+      width: 23em;
       border: 3px solid #f55a00ad;
+    }
+
+    .container {
+      display: grid;
+      align-items: left;
+      grid-template-columns: 1fr 6fr 0.5fr;
+      column-gap: 2px;
+      flex-direction: column;
     }
 
     footer {
